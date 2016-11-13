@@ -7,6 +7,6 @@ wordLen(["code", "code", "code", "bug"]) → {"bug": 3, "code": 4}
   */
   Map<String, Integer> map = new HashMap();
   for (String s:strings) {
-    map.put(s, 0);
+    map.put(s, s.length());
   }
   return map;
